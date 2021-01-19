@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76a148c3-e879-49dd-b3e5-0ce4947f1029" name="Default Changelist" comment="" />
+    <list default="true" id="76a148c3-e879-49dd-b3e5-0ce4947f1029" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +16,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1n7L2vKimcaQDiF4FfOZ3b39d0m" />
   <component name="ProjectViewState">
@@ -36,17 +42,17 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="253" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610761690985">
+    <state x="253" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611096152747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="253" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1610761690985" />
+    <state x="253" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611096152747" />
     <state x="267" y="275" key="FileChooserDialogImpl" timestamp="1611096109381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="267" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611096109381" />
-    <state x="0" y="180" key="SettingsEditor" timestamp="1610759014550">
+    <state x="0" y="180" key="SettingsEditor" timestamp="1611097145264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="180" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610759014550" />
+    <state x="0" y="180" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611097145264" />
   </component>
 </project>
