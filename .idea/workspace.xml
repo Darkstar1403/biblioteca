@@ -1,12 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="76a148c3-e879-49dd-b3e5-0ce4947f1029" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applications/autor/managers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/applications/autor/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/autor/lista.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/autor/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/autor/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/applications/autor/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/autor/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/applications/lector/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/lector/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/applications/libro/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/libro/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/autor/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/autor/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +38,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -29,9 +52,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/applications/autor/views.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/applications/autor/views.py" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -44,18 +69,41 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="0" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611130272556">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611130272556" />
     <state x="253" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611096152747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="253" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611096152747" />
-    <state x="267" y="275" key="FileChooserDialogImpl" timestamp="1611096109381">
+    <state x="93" y="100" width="774" height="847" key="DiffContextDialog" timestamp="1611130708703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="267" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611096109381" />
+    <state x="93" y="100" width="774" height="847" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611130708703" />
+    <state x="267" y="275" key="FileChooserDialogImpl" timestamp="1611130257584">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="267" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611130257584" />
     <state x="0" y="180" key="SettingsEditor" timestamp="1611097145264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="180" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611097145264" />
+    <state x="72" y="256" key="Vcs.Push.Dialog.v2" timestamp="1611130283887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="72" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611130283887" />
   </component>
 </project>
