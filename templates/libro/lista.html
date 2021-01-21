@@ -1,0 +1,16 @@
+<h1>Lista de libros</h1>
+
+<p>
+    <form method="GET"> {% csrf_token %}
+        <input type="text" id="nombre" name="nombre" placeholder="ingrese el titulo">
+        <input type="date" name="fechaInicio" id="fechaInicio" style="color: red;">
+        <input type="date" name="fechaFinal" id="fechaFinal">
+        <button type="submit">Consultar</button>
+    </form>
+</p>
+
+<ul>
+    {% for libro in libros %}
+        <li>{{libro.titulo}} de {{libro.autor}} publicado {{libro.fecha}}</li>
+    {% endfor %}
+</ul>

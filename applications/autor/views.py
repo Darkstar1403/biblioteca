@@ -11,5 +11,6 @@ class ListAutores(ListView):
     template_name = 'autor/lista.html'
 
     def get_queryset(self):
+        palabraClave = self.request.GET.get('nombre', '')
 
-        return Autor.objects.listarAutores()
+        return Autor.objects.buscarAutor(palabraClave)
