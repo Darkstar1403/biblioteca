@@ -2,20 +2,22 @@ from django.db import models
 
 # Create your models here.
 from applications.autor.models import Autor
-from applications.libro.managers import LibroManager
+from applications.libro.managers import LibroManager, CategoriaManager
 
 
 class Categoria(models.Model):
     nombre = models.CharField('Nombre', max_length=30)
-    
+
+    objects = CategoriaManager()
+
     def __str__(self):
-        return self.nombre
+        return str(self.id) + '-' + self.nombre
     class Meta:
         verbose_name = 'Categoria'
         verbose_name_plural = 'Categorias'
 
 class Libro(models.Model):
-    categoria = models.ForeignKey(Categoria, on_delete=models.CASCADE, verbose_name='Categoría')
+    categoria = models.ForeignKey(Categoria, on_delete=models.CASCADE, verbose_name='Categoría', related_name='categoria_libro')
     autor = models.ManyToManyField(Autor,verbose_name='Autores')
     titulo = models.CharField('Titulo', max_length=50)
     fecha = models.DateField('Fecha de lanzamiento', auto_now=False, auto_now_add=False)
@@ -29,5 +31,6 @@ class Libro(models.Model):
     class Meta:
         verbose_name = 'Libro'
         verbose_name_plural = 'Libros'
+        ordering = ['titulo', 'fecha']
 
 

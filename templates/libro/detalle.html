@@ -1,0 +1,15 @@
+<h1>Detalle del libro</h1>
+<p>{{libro.titulo}}</p>
+<p>{{libro.fecha}}</p>
+<p>{{libro.categoria.nombre}}</p>
+<p>---------M2M-------------------------</p>
+<ul>
+    {% for autor in libro.autor.all %}
+        <li>{{autor}}</li>
+    {% endfor %}
+</ul>
+<p>_________agregar autores_______________</p>
+<form method="POST"> {% csrf_token %}
+    <input type="text" placeholder="agregar autor">
+    <button type="submit">Guardar</button>
+</form>

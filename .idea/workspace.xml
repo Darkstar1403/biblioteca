@@ -19,18 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76a148c3-e879-49dd-b3e5-0ce4947f1029" name="Default Changelist" comment="manager básico de autor">
-      <change afterPath="$PROJECT_DIR$/applications/libro/managers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/applications/libro/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/libro/lista.html" afterDir="false" />
+    <list default="true" id="76a148c3-e879-49dd-b3e5-0ce4947f1029" name="Default Changelist" comment="manager básicos terminados">
+      <change afterPath="$PROJECT_DIR$/applications/lector/managers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/libro/detalle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/libro/lista_categoria.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/applications/autor/managers.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/autor/managers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/applications/autor/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/autor/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/applications/libro/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/libro/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/lector/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/lector/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/lector/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/lector/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/libro/managers.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/libro/managers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/applications/libro/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/libro/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/libro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/libro/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/applications/libro/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/libro/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/autor/lista.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/autor/lista.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/libro/lista.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/libro/lista.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611131454612</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="manager básicos terminados">
+      <created>1611254323375</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611254323375</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,7 +105,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="manager básico de autor" />
-    <option name="LAST_COMMIT_MESSAGE" value="manager básico de autor" />
+    <MESSAGE value="manager básicos terminados" />
+    <option name="LAST_COMMIT_MESSAGE" value="manager básicos terminados" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611130272556">
@@ -121,9 +129,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="180" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611097145264" />
-    <state x="72" y="256" key="Vcs.Push.Dialog.v2" timestamp="1611131473255">
+    <state x="72" y="256" key="Vcs.Push.Dialog.v2" timestamp="1611254355268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="72" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611131473255" />
+    <state x="72" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611254355268" />
   </component>
 </project>
